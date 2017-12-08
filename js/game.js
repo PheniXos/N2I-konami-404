@@ -160,7 +160,9 @@ function revealAll() {
 
 function save_score_page()  {
 
+    $("#formtrophy").val(document.forsec.seca.value + "-" + document.forsec.secc.value)
     $('#score-display').append("<h3>Gagné en min -" + document.forsec.seca.value + " sec - " + document.forsec.secc.value + "</h3>");;
+    $('#formtrophy').prop("disabled", true);
     $('#game_div').hide();
     $('#form-win').show();
     rasee();
