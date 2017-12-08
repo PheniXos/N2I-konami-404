@@ -1,0 +1,53 @@
+#pge
+{
+	display: block;
+	margin:40px auto;padding:0;
+	line-height:30px;
+	color: #000!important;
+}
+.cse
+{
+	display:inline-block;
+	margin:0;
+	padding:0;
+	width:36px!important;
+	height:36px!important;
+	vertical-align:top;border:1px solid #000;
+	background-color:#5589b3;
+}
+.wht
+{
+	text-align: center;
+	background-color:#fff
+}
+#replay
+{
+	display: none;
+}
+.bombe
+{
+	width: 100%;
+	height: 100%;
+}
+.chrono_value
+{
+	color: white;
+	border-bottom: inherit!important;
+	font-size: 25px;
+	width: 35px!important;
+	text-align: center;
+}
+
+.retry-btn
+{
+	display: none;
+}
+
+#game
+{
+    display: block;
+}
+/* ============================= */
+.retry-btn {
+margin: auto;
+}
